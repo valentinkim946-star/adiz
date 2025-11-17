@@ -1,0 +1,30 @@
+.navbar h1{
+    color: #292929;
+    font-size: 24px;
+    padding-left: 37px;
+    padding-top: 25px;
+}
+
+.containers  a{
+    text-decoration: none;
+    color: #292929;
+}
+
+.containers{
+    display: flex;
+    gap: 33px;
+}
+
+
+.big{
+    background-color: white;
+    width: 415px;
+    height: 720px;
+    border-radius: 30px;
+
+}
+
+body{
+    background-color: #676C75;
+}
+
