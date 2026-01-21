@@ -5,6 +5,12 @@
     font-family: 'Inter' , sans-serif;
 }
 
+::selection{
+    /* background: linear-gradient(45deg , blue, white); */
+    background-color: #0D8BFF;
+    color: white;
+}
+
 .cantener{
     margin: 0 auto;
     width: 428px;
@@ -45,6 +51,120 @@ header h1{
     display: none;
 }
 
-.top{
-    
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.text h4{
+    margin-top: 8px;
+    margin-bottom: 17px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.text A{
+    color: #C4C4C4;
+    font-size: 18px;
+    text-decoration: NONE;
+}
+
+.country{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ststes__1{
+    width: 186px;
+    height: 108px;
+    border-radius: 16px;
+    background-image: url('./img/logas.png');
+}
+
+.ststes__2{
+    width: 186px;
+    height: 108px;
+    border-radius: 16px;
+    background-image: url('./img/abuja.png');
+}
+.ststes__3{
+    width: 186px;
+    height: 108px;
+    border-radius: 16px;
+    background-image: url('./img/kano.png');
+}
+.ststes__4{
+    width: 186px;
+    height: 108px;
+    border-radius: 16px;
+    background-image:url('./img/rivers.png') ;
+}
+.ststes__5{
+    width: 186px;
+    height: 108px;
+    border-radius: 16px;
+    background-image: url('./img/owerri.png');
+}
+.ststes__6{
+    width: 186px;
+    height: 108px;
+    border-radius: 16px;
+    background-image: url('./img/kogi.png');
+}
+
+.country{
+    row-gap: 24px;
+    column-gap: 18px;
+    margin-left: 17px;
+}
+
+.country a{
+    position: relative;
+    text-decoration: none;
+}
+
+.text2{
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    font-size: 12px;
+    width: 68px;
+    height: 24px;
+    border-radius: 5px 5px 5px 0;
+    text-align: center;
+    padding-top: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.navbar{
+    width: 428px;
+    height: 62px;
+    background-color: #0D8BFF;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 21px 8px ;
+}
+
+nav ul li p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.li__boss img{
+    
+    justify-content: center;
+}
+
