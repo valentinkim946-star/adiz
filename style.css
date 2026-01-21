@@ -1,183 +1,50 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Instrument Sans", sans-serif;
-    list-style: none;
+    font-family: 'Inter' , sans-serif;
 }
 
-::-webkit-scrollbar {
+.cantener{
+    margin: 0 auto;
+    width: 428px;
+}
+
+header{
+    background-image: url('./img/more.png');
+    background-repeat: no-repeat;
+    height: 262px;
+}
+
+header h1{
+    font-size: 32px;
+    color: #0D8BFF;
+    text-align: center;
+    padding-top: 46px;
+}
+
+.states div h5{
+    font-size: 18px;
+    color: #000000;
+    margin-top: 13px;
+    margin-bottom: 17px;
+}
+
+.story{
+    display: flex;
+    overflow: scroll;
+}
+
+.story div{
+    border: 1px blue solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.story::-webkit-scrollbar{
     display: none;
 }
 
-.container {
-    max-width: 430px;
-    margin: 0 auto;
-    padding: 24px 24px 21px 24px;
-    background-color: white;
-    border-radius: 30px;
-}
-
-.classtext{
-    font-family: Instrument Sans;
-    font-size: 5px;
-}
-
-.hero30 p{
-    color:#989898;
-    font-size: 14px;
-}
-
-.hero30 img{
-    padding-left: 15px;
-}
-
-.hero29{
-    font-size: 14px;
-    color: #292929;
-}
-
-.hero40 a{
-    color: #989898;
-    font-size: 14px;
+.top{
     
-}
-
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flex-container3{
-        border-top:2px solid #dad9d9;
-        padding-top: 10px;
-}
-
-body{
-    background-color: #676C75;
-}
-
-.camin4{
-    padding-bottom: 70px;
-}
-
-.flex-container a{
-  text-decoration: none;
-  color: black;
-}
-
-.category-title {
-    font-size: 20px;
-    margin-bottom: 16px;
-}
-
-nav ul{
-    justify-content: space-between;
-    margin-bottom: 24px;
-}
-
-nav ul li {
-    gap: 12px;
-}
-
-.main-title {
-    font-size: 24px;
-    font-weight: bolder;
-    text-decoration: none;
-    color: #292929;
-}
-
-.total-balance h5{
-    font-size: 20px;
-    font-weight: 400;
-    color: #989898;
-    margin-bottom: 10px;
-}
-
-.total-balance div {
-    justify-content: space-between;
-}
-
-hr {
-    background-color: #989898;
-    margin: 16px 0px 20px 0px;
-    font-size: 0.5px;
-    width: 100vw;
-    position: relative;
-    left: -20px;
-}
-
-.saved-services {
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;       
-  scroll-snap-type: x mandatory; 
-  margin-bottom: 20px;
-}
-
-.saved-services div {
-  width: 100px;
-  height: 100px;
-  scroll-snap-align: start;
-  background-color: #98989830;
-  border-radius: 12px;
-  padding: 12px 8px 8px 12px;
-  flex-shrink: 0;
-}
-
-.saved-services::-webkit-scrollbar {
-  display: none;
-}
-
-.quick-pay {
-    display: flex;
-    gap: 12px;
-}
-
-.quick-pay div{
-    background-color: #98989830;
-    width: 100px;
-    height: 100px;
-    padding: 12px;
-    border-radius: 12px;
-}
-
-.atm{
-    width: 185px;
-    height: 139px;
-    background-color: #98989830;
-    border-radius: 12px;
-}
-
-.text4{
-    position: relative;
-    left: 135px;
-    bottom: 35px;
-}
-
-.darh{
-    position: relative;
-    left: 135px;
-    bottom: 45px;
-}
-
-.farm{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 16px;
-}
-
-.vatn{
-    font-size: 14px;
-    color: #989898;
-    padding-left: 20px;
-    padding-top: 25px;
-}
-
-.Banks{
-    width: 185px;
-    height: 139px;
-    background-color: #98989830;
-    border-radius: 12px;
 }
